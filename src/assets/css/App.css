@@ -1,0 +1,72 @@
+.sidebar-nav {
+    background-color: #34e1f1;
+    color:black !important;
+}
+.desca{
+    display: flex !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    cursor: pointer !important;
+    flex-direction: column;
+}
+.btngenerate{
+    width: 1000px !important;
+    display: flex !important;
+    flex-direction: row!important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    align-content: space-between !important;
+    flex-wrap: nowrap;
+}
+
+.d-md-flex{
+    background-color: #34e1f1 !important;
+}
+.header.header-sticky{
+    background-color: #34e1f1;
+}
+
+.footer{
+    background-color: #34e1f1 !important;
+}
+
+.color{
+    background-color: #0BC3D7;
+}
+
+/* En tu archivo CSS (por ejemplo, style.scss) */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Cambia el color de fondo según tus preferencias */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
