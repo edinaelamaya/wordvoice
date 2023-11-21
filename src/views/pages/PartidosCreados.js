@@ -7,6 +7,7 @@ import { CContainer , CCardBody, CRow, CCol } from '@coreui/react'
 import { PartidoCard } from "../../components/PartidosCreados/PartidoCard";
 import partidosCreados from '../../connections/datapartidoscreados'; 
 import { HojaEnBlanco } from "../../components/hojablanco/hojablanco";
+import {DocumentCard} from "../../components/carddocument/document_list"
 import annyang from 'annyang';
 
 

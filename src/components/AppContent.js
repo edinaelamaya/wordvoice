@@ -22,6 +22,7 @@ const AppContent = () => {
             )
           })}
           <Route path="/" element={<Navigate to="/partidoscreados" replace />} />
+          <Route path="/" element={<Navigate to="/document" replace />} />
         </Routes>
       </Suspense>
     </CContainer>

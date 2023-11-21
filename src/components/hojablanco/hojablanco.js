@@ -64,6 +64,7 @@ function HojaEnBlanco() {
   const handleItalicClick = () => {
     setEditorState(RichUtils.toggleInlineStyle(editorState, 'ITALIC'));
   };
+  
 
   return (
     <div>

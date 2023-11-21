@@ -1,5 +1,5 @@
 .sidebar-nav {
-    background-color: #34e1f1;
+    background-color: #6c979b;
     color:black !important;
 }
 .desca{
@@ -20,19 +20,23 @@
     flex-wrap: nowrap;
 }
 
+.flexos{
+    display: flex;
+}
+
 .d-md-flex{
-    background-color: #34e1f1 !important;
+    background-color: #6c979b !important;
 }
 .header.header-sticky{
-    background-color: #34e1f1;
+    background-color: #6c979b;
 }
 
 .footer{
-    background-color: #34e1f1 !important;
+    background-color: #6c979b !important;
 }
 
 .color{
-    background-color: #0BC3D7;
+    background-color: #6c979b;
 }
 
 /* En tu archivo CSS (por ejemplo, style.scss) */
