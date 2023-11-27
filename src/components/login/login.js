@@ -24,14 +24,14 @@ function Login() {
     } else if (command.includes('michelle inicio')) {
       // Aquí debes agregar lógica para manejar el inicio de sesión
       console.log('Iniciar sesión con', { username, password });
-      fetch('https://tu-backend.com/iniciar-sesion', {
+      fetch('http://localhost:4000/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          username: usernameValue,
-          password: passwordValue,
+          usernames: usernameValue,
+          passwords: passwordValue,
         }),
       })
         .then(response => {

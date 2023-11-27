@@ -21,7 +21,9 @@ const VoiceRecognition = ({ onCommand }) => {
         onCommand(command);
       };
 
-      
+      recognition.onend = () => {
+        console.log('Voice recognition ended');
+      };
 
       setRecognition(recognition);
       recognition.start();
